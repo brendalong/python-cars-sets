@@ -16,10 +16,11 @@ showroom.discard("mini")
 print(showroom)
 #can use remove or discard
 #discard will not show error if item does not exist while remove will
-
-
+print(showroom)
+print("hi")
 junkyard = set(["dodge", "volkswagon", "mini", "four-wheel", "moped", "chevy", "mini"])
 samecars = junkyard.intersection(showroom)
 print("samecars", samecars)
 new_showroom = showroom.union(junkyard)
 print("new_showroom", new_showroom)
+
